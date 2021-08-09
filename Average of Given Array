@@ -1,0 +1,17 @@
+ package com.company;
+
+public class Main {
+   
+    public static void main(String[] args) {
+
+ //Problem 2 - Calculate average of array
+        double[] array = {12, 56, 78, 9, 8};
+        System.out.println("Average of Array");
+        double totalnumber = 0;
+        for (int i = 0; i < array.length; i++) {
+            totalnumber = totalnumber + array[i];
+        }
+        double avg = totalnumber / array.length;
+        System.out.format("Average of Array is : %.3f" , avg);
+        }
+        }
